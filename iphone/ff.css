@@ -1,0 +1,27 @@
+div{
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(238, 151, 38);
+}
+button{
+background-color: rgb(200, 234, 63);
+border: none;
+padding: 15px;
+border-radius: 20px;
+}
+h2{
+    
+    color: rgb(247, 247, 55);
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+p{
+    color: rgb(240, 203, 133);
+}
+b{
+    color:rgb(35, 26, 21);
+}
