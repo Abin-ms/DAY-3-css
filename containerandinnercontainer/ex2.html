@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .outer{
+        background-color: black;
+        padding: 20px;
+        border: 1px solid;
+        
+    }
+    .container{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: relative;
+
+    }
+    
+    .container:hover .dropdown{
+        display: block;
+    }
+    .outer a{
+        color: white;
+        text-decoration: none;
+    }
+    .dropdown{
+        border: 1px solid black;
+        display: none;
+        background-color: grey;
+        position: absolute;
+        top: 26px;
+        left: 0;
+    }
+    .dropdown a{
+        display: block;
+        text-decoration: none;
+        border-bottom: 1px solid;
+        padding: 6px 10px;
+        color: black;
+    }
+    .outer>a,.container>a{
+        color: white;
+        margin-right: 15px;
+        font-size: 20px;
+    }
+    .outer a:hover{
+        color: aliceblue;
+        font-size: 30px;
+    }
+</style>
+<body>
+    <nav class="outer">
+        <a href="">Home</a>
+
+        <div class="container">
+            <a href="">Products</a>
+            <div class="dropdown">
+                <a href="">Laptops</a>
+                <a href="">Phones</a>
+                <a href="">Watches</a>
+                <a href="">Shoes</a>
+            </div>
+        </div>
+        
+        <a href="">Cart</a>
+        <a href="">Contact</a>
+    </nav>
+</body>
+</html>
