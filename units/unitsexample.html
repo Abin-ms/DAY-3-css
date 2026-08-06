@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .aa{
+            width: 600px;
+            height: 100px;
+            background-color: lightcyan;
+        } */
+
+      /* .parent {
+        width: 600px;
+        border: 2px solid red;
+      }
+      .child {
+        width: 90%;
+        height: 100px;
+        background-color: blue;
+        border: 2px solid yellow;
+      } */
+       #parent{
+        /* height: 30px;
+        width: 70px; */
+        background-color: red;
+        font-size: 30px;
+       }
+       #child{
+            border: 2px solid blue;
+            font-size: 5em;    
+            /* 1em = 30px(font-size of the parent ) / 2em = 60px like that.... */
+       }
+    </style>
+  </head>
+  <body>
+    <!-- Absolute units -->
+    <!-- <div class="aa">Absolute unit example</div> -->
+
+    <!-- Relative units (%)  -->
+    <!-- <div class="parent">
+      relative unit
+      <div class="child">
+        relative unit child Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Deserunt, incidunt facilis at tempore exercitationem repellendus
+        reiciendis accusamus animi quis ea.
+      </div>
+    </div> -->
+
+    <!-- Relative units (em) -->
+     <div id="parent">
+        parent
+        <div id="child">Child</div>
+     </div>
+  </body>
+</html>
